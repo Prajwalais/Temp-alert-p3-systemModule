@@ -6,7 +6,7 @@ if len(sys.argv)==2:
 else:
   script_name=sys.argv[0]
   temp=100
-print(f"script_name: {script_name)\nTempeture: {temp}")
+print(f"script_name: {script_name}\nTempeture: {temp}")
 
 if temp <15:
   print(f"Cold")
